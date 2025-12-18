@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Gaum Justine | Portfolio</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+</head>
+<body>
+
+<header class="navbar">
+  <div class="logo">Gaum Justine</div>
+  <nav>
+    <a href="#home">Home</a>
+    <a href="#skills">Skills</a>
+    <a href="#projects">Projects</a>
+    <a href="#contact" class="btn">Contact me</a>
+  </nav>
+</header>
+
+<section id="home" class="hero">
+  <div class="hero-text">
+    <h1>Welcome to Gaum<br>Justine’s Portfolio!</h1>
+    <p>
+      I am a 2nd year student taking a Bachelor’s degree in
+      Computer Science, passionate about front-end development
+      and interactive web design.
+    </p>
+  </div>
+
+  <div class="hero-image">
+    <img src="image/me.jpeg" alt="My photo">
+  </div>
+</section>
+
+<section id="skills" class="skills">
+  <h2>My front-end skills</h2>
+
+  <div class="skills-grid">
+    <div class="skill-card">
+      <img src="image/download.png">
+      <h3>HTML</h3>
+    </div>
+
+    <div class="skill-card">
+      <img src="image/download (1).png">
+      <h3>CSS</h3>
+    </div>
+
+    <div class="skill-card">
+      <img src="image/download (2).png">
+      <h3>JavaScript</h3>
+    </div>
+  </div>
+</section>
+
+<section id="projects" class="projects">
+  <h2>My projects</h2>
+  <div class="projects-grid" id="projectList">
+
+  </div>
+</section>
+
+<section id="contact" class="contact">
+  <div class="contact-form">
+    <h2>Contact Me!</h2>
+    <form id="contactForm">
+      <input type="text" placeholder="Name" required>
+      <input type="email" placeholder="Email" required>
+      <textarea placeholder="Message" required></textarea>
+
+      <div class="buttons">
+        <button type="submit">Send</button>
+        <button type="button" class="secondary">Download CV</button>
+      </div>
+    </form>
+  </div>
+
+  <div class="contact-image">
+    <img src="image/contact.jpeg" alt="Contact Image">
+  </div>
+</section>
+
+<footer>
+  <p>© 2025 Gaum Justine</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
